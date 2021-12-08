@@ -64,7 +64,8 @@
       top: 50%;
       transform-origin: 100%; /* default is 50% and 100% will make the very right hand side the center of the movement */
       transform: rotate(90deg); /* make the all hand start from 12 */
-      
+      transition: all 0.05s;
+      transition-timing-function: cubic-bezier(0.26, 1.96, 0.17, 1); /* add the click effect on the style */
     }
 
   </style>
